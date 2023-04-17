@@ -1,47 +1,32 @@
-import React from 'react';
-import { View, Text, StyleSheet, Image } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
+import { 
+  StyleSheet, 
+  Text, 
+  View, 
+  Image, 
+  SafeAreaView, 
+  TouchableOpacity, 
+} from 'react-native';
 
-const HomePage = () => {
+export default function App() {
+
   return (
-    <View style={styles.container}>
-      <View style={styles.navbar}>
-        <Text style={styles.navbarTitle}>My App</Text>
-      </View>
-      <View style={styles.logoContainer}>
-        <Image source={require('./images/logo.png')} style={styles.logo} />
-      </View>
-    </View>
+    <SafeAreaView style={styles.container}>
+      <Text>L!NK by TravelBugs</Text>
+      <TouchableOpacity onPress={() => alert('Button tapped')}>
+        <Image source={require('./assets/tb-black.png/')} />
+
+      </TouchableOpacity>
+    </SafeAreaView>
   );
-};
+}
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-  },
-  navbar: {
-    height: 60,
-    backgroundColor: '#fff',
-    justifyContent: 'center',
+    backgroundColor: 'lightgray',
     alignItems: 'center',
-    borderBottomWidth: 1,
-    borderBottomColor: '#ddd',
-  },
-  navbarTitle: {
-    color: '#333',
-    fontSize: 20,
-    fontWeight: 'bold',
-  },
-  logoContainer: {
-    flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
-  },
-  logo: {
-    width: 150,
-    height: 150,
+    fontSize: '250px',
   },
 });
-
-export default HomePage;
-

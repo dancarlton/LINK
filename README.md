@@ -2,7 +2,7 @@
 Working Beta for LINK by TravelBugs
 
 
-Here is the [documentation]https://reactnative.dev/docs/environment-setup on setting up the React Environment,
+Here is the [documentation](https://reactnative.dev/docs/environment-setup) on setting up the React Environment,
 but for now here's my dumbed down explanation.
 
 1. Install Vcode

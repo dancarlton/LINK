@@ -2,8 +2,8 @@
 Working Beta for LINK by TravelBugs
 
 
-Here is the [documentation]https://reactnative.dev/docs/environment-setup on setting up the React Environment,
-but for now here's my dumbed down explanation. 
+Here is the detailed [documentation](https://reactnative.dev/docs/environment-setup) for setting up the React Environment,
+but for now here's my dumbed down explanation.
 
 **Note this is for MacBook**
 

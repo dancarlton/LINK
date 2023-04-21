@@ -17,5 +17,8 @@ but for now here's my dumbed down explanation.
 8. Run npm install react-redux
 9. Run npm install @reduxjs/toolkit 
 10. Run npm install react-native-gesture-handler
+11. Run npm add @react-navigation/native
+12. Run npx expo install react-native-screens react-native-safe-area-context
+13. Run npm install @react-navigation/native-stack
 
 ... I think

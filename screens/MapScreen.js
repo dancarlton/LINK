@@ -1,14 +1,24 @@
-import React, { Component } from 'react'
-import { SafeAreaView, StyleSheet, Text, View } from 'react-native'
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+import tw from 'twrnc';
+import Map from '../components/Map';
+import MapView from 'react-native-maps';
+
+
+
 
 
 const MapScreen = () => {
     return (
-        <SafeAreaView>
-            <View>
-                <Text>Here is map stuff ...</Text>
+        <View>
+
+            <View style={tw`h-1/2`}>
+                <Map />
             </View>
-        </SafeAreaView>
+
+            <View style={tw`h-1/2`}></View>
+
+        </View>
 
     );
 };
